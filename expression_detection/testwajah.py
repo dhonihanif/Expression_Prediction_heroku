@@ -1,9 +1,7 @@
 import cv2, os, numpy as np
-import numpy as np
 from keras.models import load_model
 import pandas as pd
 import matplotlib.pyplot as plt
-import numpy as np
 import seaborn as sns
 import pathlib
 from tensorflow.keras.preprocessing import image
