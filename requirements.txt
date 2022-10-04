@@ -9,3 +9,4 @@ Pillow==9.0.1
 scikit_learn==1.1.2
 tensorflow-cpu==2.9.0
 flask==2.2.2
+gunicorn==20.1.0
