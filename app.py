@@ -14,7 +14,6 @@ from werkzeug.utils import secure_filename
 
 import io
 import os
-import cv2
 
 app = Flask(__name__)                                    #calling
 def get_model():
