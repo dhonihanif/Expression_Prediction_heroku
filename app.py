@@ -7,7 +7,6 @@ from tensorflow.keras.preprocessing.sequence import pad_sequences
 import tensorflow as tf
 import re
 from flask import Flask, render_template, url_for, request, flash, redirect
-import cv2
 from keras.models import load_model
 from PIL import Image, ImageOps
 from tensorflow.keras.preprocessing.image import load_img, img_to_array
