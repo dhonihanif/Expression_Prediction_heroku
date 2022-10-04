@@ -1,6 +1,4 @@
 web: python app.py runserver
-web: gunicorn app.wsgi:application --log-file - --log-level debug
-python manage.py collectstatic --noinput
-manage.py migrate
+gunicorn app:application --preload -b 0.0.0.0:5000 
 
 worker:  bundle exec rake jobs:work
