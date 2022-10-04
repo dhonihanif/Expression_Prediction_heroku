@@ -73,4 +73,4 @@ def predict():
     
     return render_template('predict.html', product = product, user_image = file_path, url=url)    
 if __name__ == "__main__":
-    app.run()
+    app.run(port=5000)
